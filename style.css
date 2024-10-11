@@ -6,10 +6,12 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: Arial, sans-serif;
-  background-color: #a79c9c;
+  background-color: #ceb3b3;
 }
 h4 {
   font-size: 2rem;
+  height: 2rem;
+  text-align: center;
 }
 .container {
   display: flex;
@@ -29,9 +31,21 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   border-radius: 5px;
+  text-align: center;
+}
+/* for chrom safari and internet explorer */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 .buttons {
