@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   height: 100vh;
@@ -5,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   background-color: #ceb3b3;
 }
 h4 {
@@ -15,6 +20,7 @@ h4 {
   animation: fadeIn 1s ease forwards;
 }
 .container {
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +30,6 @@ h4 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeIn 2s ease forwards;
-    
 }
 
 .display-num {
@@ -84,13 +89,13 @@ input[type="number"] {
 .buttons button:hover {
   background-color: #0056b3;
 }
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-3rem);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0); 
-    }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
