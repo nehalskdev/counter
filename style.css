@@ -48,6 +48,7 @@ input::-webkit-inner-spin-button {
 
 /* for Firefox */
 input[type="number"] {
+  appearance: inherit;
   -moz-appearance: textfield;
 }
 
