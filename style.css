@@ -59,7 +59,7 @@ input[type="number"] {
 .buttons button {
   width: 3rem;
   height: 3rem;
-  font-size: 18px;
+  font-size: 2rem;
   cursor: pointer;
   border: none;
   border-radius: 5px;
@@ -71,7 +71,7 @@ input[type="number"] {
   margin-top: 0.8rem;
   width: 4rem;
   height: 3rem;
-  font-size: 18px;
+  font-size: 2rem;
   cursor: pointer;
   border: none;
   border-radius: 5px;
@@ -86,7 +86,7 @@ input[type="number"] {
   @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateY(-20px);
+      transform: translateY(-3rem);
     }
     to {
       opacity: 1;
