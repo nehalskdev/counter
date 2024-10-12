@@ -1,21 +1,21 @@
 "strict mode";
 
-const add = document.getElementById("Add");
-const minus = document.getElementById("Minus");
-const reset = document.getElementById("reset");
-const display = document.querySelector(".display-num");
+const addBtn = document.getElementById("Add");
+const minusBtn = document.getElementById("Minus");
+const resetBtn = document.getElementById("reset");
+const displayEl = document.querySelector(".display-num");
 
 // initializing conter
 let counter = 0;
 display.value = counter;
 
-add.addEventListener("click", () => {
+addBtn.addEventListener("click", () => {
   console.log("add");
   counter++;
   display.value = counter;
 });
 
-minus.addEventListener("click", () => {
+minusBtn.addEventListener("click", () => {
   console.log("Minus");
   if (counter > 0) {
     counter--;
@@ -23,7 +23,7 @@ minus.addEventListener("click", () => {
   }
 });
 
-reset.addEventListener("click", () => {
+resetBtn.addEventListener("click", () => {
   console.log("reset");
   counter = 0;
   display.value = counter;
